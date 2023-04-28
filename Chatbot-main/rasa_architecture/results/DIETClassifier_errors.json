@@ -1,0 +1,204 @@
+[
+  {
+    "text": "i am fine",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "user",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9273205995559692,
+        "value": "i",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "state",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.7337554693222046,
+        "value": "fine",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What time is it in Berlin?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "Berlin",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the time in Sydney?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "Sydney",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "excellent - is it hot in Berlin?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 31,
+        "value": "Berlin",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how is the weather in berlin?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "berlin",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how's the weather in berlin",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "berlin",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "hows the weather today in berlin?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 32,
+        "value": "berlin",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what about the weather in Lüneburg",
+    "entities": [
+      {
+        "start": 26,
+        "end": 34,
+        "value": "Lüneburg",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the weather in Berlin",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "Berlin",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the weather in zurich?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "zurich",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what's the weather like in LA",
+    "entities": [
+      {
+        "start": 27,
+        "end": 29,
+        "value": "LA",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "whats the temperature in delhi?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "delhi",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "whats the temperature in ahmedabad?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "ahmedabad",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "whats the temperature in surat?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "surat",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "whats the temperature in Hyderabad?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 30,
+        "value": "Hyderabad",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "whats the weather in berlin?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 27,
+        "value": "berlin",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

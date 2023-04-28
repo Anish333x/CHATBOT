@@ -1,0 +1,139 @@
+version: '3.1'
+
+nlu:
+  - intent: user_name
+    examples: |
+      - My name is [op](name)
+      - I am [op](name)
+      - They camm me [ankit](name)
+      - You can call me [Govinda](name)
+      - my name is [Bhanwar](name)
+      - name : [OmPrakash]
+      - name's [divya](name)
+      - [divya](name) here
+      - my name is [Jitu](name)
+
+  - intent: user_state
+    examples: |
+      - [i](user) am [fine](state)
+      - [i](user) am [doing great](state)
+      - everything is going [fine](state)
+      - [i](user) am [not doing that fine](state)
+      - [My](user) state is [not that great](state)
+      - Mood [not great](state)
+      - everything is [not going fine](state)
+      - [i](user) am [happy](state)
+      - [i](user) am [sad](state)
+
+  - intent: ask_weather
+    examples: |
+      - Can I ask you something about weather
+      - Do you have good weather?
+      - How is the weather today?
+      - How is the weather?
+      - How is weather today
+      - Is it hot or cold?
+      - Is it humid out there today?
+      - Is it quite breezy outside?
+      - Is it raining
+      - Is it raining?
+      - Looks like a beautiful day hey?
+      - Nice day out today?
+      - Weather?
+      - What is the temperature today?
+      - What is the weather at your place?
+      - What is the weather for tomorrow?
+      - What is the weather in [newyork]location?
+      - What's it like out there?
+      - What's the weather forecast?
+      - What's the weather like over there?
+      - What's the weather like where I am right now?
+      - What's the weather like?
+      - Will I require my raincoat today?
+      - Will the skies be clear today?
+      - Will we build a snowman today?
+      - excellent - is it hot in [Berlin](location)?
+      - how is the weather
+      - how is the weather ?
+      - how is the weather in [berlin](location)?
+      - how is the weather?
+      - how's the weather ?
+      - how's the weather in [berlin](location)
+      - how's the weather?
+      - how's weather
+      - hows the waether
+      - hows the weather in bot world
+      - hows the weather today in [berlin](location)?
+      - is it hot ?
+      - is it hot outside ?
+      - is it sunny
+      - is the sun out where you are?
+      - is the sun out where zou are?
+      - it is cold
+      - temperature?
+      - the weather today
+      - weatger
+      - weather
+      - weather?
+      - well, if you wish: what about the weather
+      - what about the weather in [Lüneburg](location)
+      - what is the temperature
+      - what is the wather
+      - what is the weatehr
+      - what is the weather
+      - what is the weather in [Berlin](location)
+      - what is the weather in [zurich](location)?
+      - what is the weather like where you are?
+      - what is the weather like?
+      - what is the whether today
+      - what the wheather like?
+      - what"s the weather
+      - what's the weather
+      - what's the weather like
+      - what's the weather like in [LA](location)
+      - what's the weather like where you are?
+      - what's the weather like?
+      - what's the weather today
+      - what's the weather today?
+      - whats the temperature
+      - whats the temperature in [delhi](location)?
+      - whats the weather in [berlin](location)?
+      - whats the weather like tomorrow?
+      - wheather at you location?
+      - wheather be like at your place?
+
+  - intent: schedule_creation
+    examples: |
+      - I want to [play cricket](task) at [6 pm today](time)
+      - My [dinner](task) time is [7 pm everyday](time)
+      - I [wake up](task) at [6 am](time)
+      - My [meeting with Nikhil](task) is schedulded at [7pm tommorow](time)
+      - Mark my [brother's birthday](task) at [13 May](time)
+      - My [assgnment deadline](task) is on [27 this month](time)
+      - [Homework](task) last date is [4 days from now](time)
+      - [Travelling to surat](task) on [23 june](time)
+
+  - intent: expense_tracker
+    examples: |
+      - I spent [300 rupees](amount-of-money) on [chocolate](item) [today](time)
+      - I paid my [rent](item) [today](time) of worth [7000 rupees](amount-of-money)
+      - I spent [100 rupees](amount-of-money) on my [mobile recharge](item)
+      - I bought [10 rupees](amount-of-money) [pen](item) [today](time)
+      - i bought a [toy car](item) of worth [2 rupees](amount-of-money) [today](time)
+      - [20 rupees](amount-of-money) on [chocolate](item)
+      - [Biscuit](item) worth [5 rupees](amount-of-money)
+      - [Bus ticket](item) worth [100 rupees](amount-of-money)
+      - [100 rupees](amount-of-money) [bus ticket](item)
+      - [petrol refil](item) of worth [200 rupees](amount-of-money)
+      - spent [100 rupees](amount-of-money) on [clothes](item) [today](time)
+
+  - intent: see_expenses
+    examples: |
+      - I want to see my expenses
+      - Give me my expenses
+      - Get my expenses
+      - My expenses
+      - What are my expenses 
+      - Where did i spend my money on
+      - Where did my money go?
+      - Where am i spending my money

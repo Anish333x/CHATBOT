@@ -1,0 +1,31 @@
+version: '3.1'
+
+stories:
+  - story: create_schedule_right
+    steps:
+      - intent: schedule_creation
+      - action: action_utter_schedule_confirmation
+      - intent: affirm
+      - action: action_create_schedule
+      - intent: thanking
+      - action: utter_welcome
+
+  - story: action_create_schedule_wrong
+    steps:
+      - intent: schedule_creation
+      - action: action_utter_schedule_confirmation
+      - intent: deny
+      - action: utter_re_type
+      - intent: schedule_creation
+      - action: action_utter_schedule_confirmation
+      - intent: affirm
+      - action: action_create_schedule
+
+  - story: story can_you_help
+    steps:
+      - intent: can_you_help
+      - action: utter_agent_can_you_help
+      - intent: schedule_creation
+      - action: action_utter_schedule_confirmation
+      - intent: thanking
+      - action: utter_welcome

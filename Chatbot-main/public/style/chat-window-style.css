@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Century Gothic;
+}
+/* --------------------------------------------------------------------------------------------------- */
+
+/* section {
+  background: rgba(177, 177, 222, 1);
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  display: none;
+} */
+
+/* Button and it's hover */
+.show-button {
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #333;
+  color: #909090;
+  z-index: 4;
+  /* background-image: linear-gradient(to top right, lightyellow, lightblue); */
+}
+
+.show-button i {
+  margin: 12px 8px;
+  width: 40px;
+  height: 31px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.show-button:hover {
+  color: #62a2a0;
+  border-radius: 500%;
+  text-shadow: 0px 0px 2px #62a2a0;
+  box-shadow: 0px 0px 15px 5px #62a2a0;
+  transition: 0.5s;
+}
+
+/* Full message Window */
+section .message-window {
+  /* Display property */
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+
+  position: fixed;
+  bottom: 8%;
+  right: 26%;
+  width: 50%;
+  height: 80vh;
+  border-radius: 10px;
+  box-shadow: 3px 0px 10px #62a2a0;
+  z-index: 2;
+}
+
+/* Message Window Heading */
+h5 {
+  font-size: 20px;
+  font-family: "Lucida Handwriting";
+  text-transform: uppercase;
+  text-align: center;
+  background: #79c7c5;
+  color: #000;
+  padding: 8px;
+  letter-spacing: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Message Window Animation */
+section .message-window {
+  animation-name: simple;
+  animation-duration: 0.4s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+@keyframes simple {
+  /* Small to Big */
+  0% {
+    transform: scale(0);
+    bottom: -40%;
+    right: -30%;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* input[type="checkbox"] {
+  display: none;
+}
+
+#show:checked ~ .message-window {
+  display: flex;
+  flex-flow: column;
+}
+
+.message-window {
+  animation-name: simple;
+  animation-duration: 0.4s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+}
+
+@keyframes simple {
+  100% {
+    transform: scale(1);
+    bottom: -40%;
+    right: -30%;
+  }
+  0% {
+    transform: scale(0);
+  }
+} */
+
+/* Background of Chat Box */
+.mesger-chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #d0f2ed;
+  background-size: cover;
+}
+
+.mesger-chat::-webkit-scrollbar {
+  width: 6px;
+}
+
+.mesger-chat::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+.mesger-chat::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+
+.msg {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+/* Left Message face Image and Bubble*/
+.msg-img {
+  background-image: url("https://www.bing.com/th/id/OGC.7d9b1d662b28cd365b33a01a3d0288e1?pid=1.7&rurl=https%3a%2f%2fcdn.dribbble.com%2fusers%2f37530%2fscreenshots%2f2937858%2fdrib_blink_bot.gif&ehk=1yjNTYFN6fWsTeZWeFa%2f99z2a3HPdxXf9AvD0rhixvU%3d");
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 40%;
+  /* background: #ddd; */
+}
+
+.msg-bubble {
+  max-width: 450px;
+  padding: 15px;
+  border-radius: 15px;
+  background: #79c7c5;
+}
+
+.msg-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.msg-info-name {
+  font-weight: bold;
+}
+
+.msg-info-time {
+  font-size: 0.85em;
+}
+
+.left-msg .msg-bubble {
+  border-bottom-left-radius: 0px;
+}
+
+.right-msg {
+  flex-direction: row-reverse;
+}
+
+.right-msg .msg-bubble {
+  background: #a1e2d9;
+  color: #000;
+  border-top-right-radius: 0px;
+}
+
+.right-msg .msg-img {
+  margin-left: 10px;
+}
+
+/* Message and button area in Chat Window and hover */
+.mesger-input-area {
+  display: flex;
+  padding: 8px;
+  background: #79c7c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mesger-input-area * {
+  padding: 4px;
+  border: none;
+  font-size: 1rem;
+}
+
+.msger-input {
+  flex: 1;
+  background: #dff3fc;
+  border-radius: 10px;
+}
+
+.msger-send-btn {
+  margin-left: 10px;
+  background: #36d7ff;
+  color: #000;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.5s;
+}
+
+.msger-send-btn i {
+  font-size: 25px;
+  padding: 1px;
+}
+
+.msger-send-btn:hover {
+  color: #36d7ff;
+  background: #000;
+  box-shadow: 0 0 15px #62a2a0;
+}
+
+/* Main WebPage Design */
+.main-background-video {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  background-size: cover;
+  padding: 3%;
+  opacity: 0.2;
+  z-index: -1;
+}

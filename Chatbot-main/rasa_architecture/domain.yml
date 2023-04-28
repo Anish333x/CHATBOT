@@ -1,0 +1,141 @@
+version: '3.1'
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+  - affirm
+  - bot_challenge
+  - deny
+  - goodbye
+  - greet
+  - mood_great
+  - mood_unhappy
+  - can_you_help
+  - thanking
+  # - textual_question
+  - user_state
+  - ask_weather
+  - schedule_creation
+  - expense_tracker
+  - see_expenses
+  - ask_howdoing
+  - user_name
+
+entities:
+  - user
+  - state
+  - location
+  - time
+  - task
+  - item
+  - amount-of-money
+
+slots:
+  user:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: user
+
+  name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name
+
+  state:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: state
+
+  location:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: location
+
+  time:
+    type: any
+    mappings:
+      - type: from_entity
+        entity: time
+
+  task:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: task
+
+  item:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: item
+
+  amount-of-money:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: amount-of-money
+
+actions:
+  - action_utter_state_got
+  - action_utter_weather
+  - action_utter_schedule_confirmation
+  - action_create_schedule
+  - action_add_expense
+  - action_get_expenses
+
+responses:
+  utter_greet:
+    - text: Hey! How are you?
+    - text: Namaste! How you doin?
+
+  utter_greet_user:
+    - text: Hey [name]
+    - text: Hello [name]
+    - text: OK [name]
+
+  utter_cheer_up:
+    - text: 'Here is something to cheer you up:'
+      image: https://i.imgur.com/nGF1K8f.jpg
+
+  utter_did_that_help:
+    - text: Did that help you?
+    - text: Hope that helped
+
+  utter_happy:
+    - text: Great, carry on!
+    - text: Keep it up!
+
+  utter_goodbye:
+    - text: Bye
+    - text: goodBye!
+    - text: take care
+    - text: see ya!
+
+  utter_iamabot:
+    - text: I am a bot, powered by Rasa.
+    - text: I am a bot, made by Omprakash Sirvi
+    - text: I am a bot
+
+  utter_agent_can_you_help:
+    - text: I will try my best
+    - text: "I'll certainly try my best."
+    - text: "Sure. I'd be happy to. What's up?"
+    - text: "I'm glad to help. What can I do for you?"
+
+  utter_welcome:
+    - text: Your are welcome
+    - text: most welcome
+    - text: happy to help
+    - text: any time
+
+  utter_how_am_i_doing:
+    - text: I am doing just fine
+    - text: dont you worry about me, I am doing just fine
+    - text: I am doing good, thanks for asking
+    - text: Nothing can harm me I am doing great

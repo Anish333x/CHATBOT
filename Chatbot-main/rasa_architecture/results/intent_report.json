@@ -1,0 +1,112 @@
+{
+  "mood_great": {
+    "precision": 0.6363636363636364,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.7567567567567568,
+    "support": 15,
+    "confused_with": {
+      "user_state": 1
+    }
+  },
+  "ask_whatismyname": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 37,
+    "confused_with": {
+      "mood_unhappy": 15,
+      "goodbye": 10,
+      "user_state": 4
+    }
+  },
+  "goodbye": {
+    "precision": 0.2127659574468085,
+    "recall": 1.0,
+    "f1-score": 0.3508771929824561,
+    "support": 10,
+    "confused_with": {}
+  },
+  "affirm": {
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1-score": 0.5714285714285715,
+    "support": 6,
+    "confused_with": {}
+  },
+  "mood_unhappy": {
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1-score": 0.5714285714285715,
+    "support": 14,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 0.2,
+    "recall": 1.0,
+    "f1-score": 0.33333333333333337,
+    "support": 4,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 0.4666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.6363636363636364,
+    "support": 7,
+    "confused_with": {}
+  },
+  "ask_weather": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 74,
+    "confused_with": {
+      "greet": 35,
+      "bot_challenge": 11,
+      "deny": 7
+    }
+  },
+  "greet": {
+    "precision": 0.22413793103448276,
+    "recall": 1.0,
+    "f1-score": 0.36619718309859156,
+    "support": 13,
+    "confused_with": {}
+  },
+  "user_state": {
+    "precision": 0.17391304347826086,
+    "recall": 1.0,
+    "f1-score": 0.29629629629629634,
+    "support": 4,
+    "confused_with": {}
+  },
+  "ask_time": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 51,
+    "confused_with": {
+      "goodbye": 22,
+      "user_state": 12,
+      "greet": 9
+    }
+  },
+  "accuracy": 0.30638297872340425,
+  "macro avg": {
+    "precision": 0.24671338499907772,
+    "recall": 0.7212121212121212,
+    "f1-score": 0.35297104924438305,
+    "support": 235
+  },
+  "weighted avg": {
+    "precision": 0.11637968537851327,
+    "recall": 0.30638297872340425,
+    "f1-score": 0.16179711516209788,
+    "support": 235
+  },
+  "micro avg": {
+    "precision": 0.30638297872340425,
+    "recall": 0.30638297872340425,
+    "f1-score": 0.30638297872340425,
+    "support": 235
+  }
+}

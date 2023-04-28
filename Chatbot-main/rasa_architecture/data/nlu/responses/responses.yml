@@ -1,0 +1,21 @@
+version: '3.1'
+responses:
+  utter_chitchat/ask_howdoing:
+    - text: "I'm great! Thanks for asking."
+    - text: "I'm good, thanks!"
+    - text: 'A little bit too warm, otherwise fine.'
+    - text: 'A little bit cold, otherwise fine.'
+
+  utter_chitchat/ask_isbot:
+    - text: "Yep, I'm a bot!"
+    - text: "Yes, I'm a bot."
+    - text: "Yep, you guessed it, I'm a bot!"
+    - text: 'I am indeed a bot 🤖'
+
+  utter_chitchat/ask_ishuman:
+    - text: "I'm not a human, I'm a bot! 🤖"
+
+  utter_re_type:
+    - text: 'Sorry can you retype that'
+    - text: 'In that case can you retype what you just said'
+    - text: 'Refactor your sentence a bit'

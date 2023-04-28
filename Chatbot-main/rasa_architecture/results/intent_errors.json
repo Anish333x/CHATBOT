@@ -1,0 +1,1306 @@
+[
+  {
+    "text": "i am fine",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.8547210097312927
+    }
+  },
+  {
+    "text": "Can you give me the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4975186288356781
+    }
+  },
+  {
+    "text": "Can you tell me the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5780831575393677
+    }
+  },
+  {
+    "text": "Can you tell me what time it is?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.47651034593582153
+    }
+  },
+  {
+    "text": "Can you tell the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5935017466545105
+    }
+  },
+  {
+    "text": "Could you tell me the time, please?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8101419806480408
+    }
+  },
+  {
+    "text": "Could you tell me the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7344281673431396
+    }
+  },
+  {
+    "text": "Could you tell me what time is it?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5072705149650574
+    }
+  },
+  {
+    "text": "Do you have the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9857818484306335
+    }
+  },
+  {
+    "text": "Do you know the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.44999921321868896
+    }
+  },
+  {
+    "text": "Do you know what time it is?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.31684672832489014
+    }
+  },
+  {
+    "text": "Excuse me, what time is it?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2831658124923706
+    }
+  },
+  {
+    "text": "Give me the time.",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.736962616443634
+    }
+  },
+  {
+    "text": "Hi, I need the time.",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9879817366600037
+    }
+  },
+  {
+    "text": "I need to know what time it is.",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4322313666343689
+    }
+  },
+  {
+    "text": "Pardon me, but do you know the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4901701807975769
+    }
+  },
+  {
+    "text": "Tell me the time.",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8862460851669312
+    }
+  },
+  {
+    "text": "Time, please!",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5618371963500977
+    }
+  },
+  {
+    "text": "Time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.39522573351860046
+    }
+  },
+  {
+    "text": "What is the current time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6078201532363892
+    }
+  },
+  {
+    "text": "What is the exact time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3465505540370941
+    }
+  },
+  {
+    "text": "What is the hour and minute right now?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3880561292171478
+    }
+  },
+  {
+    "text": "What is the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.3881852924823761
+    }
+  },
+  {
+    "text": "What might the time be?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9672597050666809
+    }
+  },
+  {
+    "text": "What time do we have?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9100627303123474
+    }
+  },
+  {
+    "text": "What time have we got?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7050042152404785
+    }
+  },
+  {
+    "text": "What time is it in Berlin?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.5721209645271301
+    }
+  },
+  {
+    "text": "What time is it right now?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7161950469017029
+    }
+  },
+  {
+    "text": "What's the current time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6601030230522156
+    }
+  },
+  {
+    "text": "What's the time right now?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4066874086856842
+    }
+  },
+  {
+    "text": "What's the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5854318141937256
+    }
+  },
+  {
+    "text": "Would you tell me what time it is?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4407426416873932
+    }
+  },
+  {
+    "text": "do you have the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9857818484306335
+    }
+  },
+  {
+    "text": "do you know the current time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8629243969917297
+    }
+  },
+  {
+    "text": "tell me the current time.",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.38278067111968994
+    }
+  },
+  {
+    "text": "tell me the time it is.",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3454284965991974
+    }
+  },
+  {
+    "text": "tell me the time.",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8862460851669312
+    }
+  },
+  {
+    "text": "tell me what time you have.",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9800106287002563
+    }
+  },
+  {
+    "text": "that's true. do you know what time it is?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.43839743733406067
+    }
+  },
+  {
+    "text": "what is the current time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6078201532363892
+    }
+  },
+  {
+    "text": "what is the time ?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.3881852924823761
+    }
+  },
+  {
+    "text": "what is the time in Sydney?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.45529410243034363
+    }
+  },
+  {
+    "text": "what is the time?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.3881852924823761
+    }
+  },
+  {
+    "text": "what is time in US ?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.6059697866439819
+    }
+  },
+  {
+    "text": "what is time is US ?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.6835097670555115
+    }
+  },
+  {
+    "text": "what is time is USA ?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.5157241225242615
+    }
+  },
+  {
+    "text": "what time do you have?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9898818135261536
+    }
+  },
+  {
+    "text": "what time is it",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.4728271961212158
+    }
+  },
+  {
+    "text": "what time is it?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.4728271961212158
+    }
+  },
+  {
+    "text": "what time it is",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.47188133001327515
+    }
+  },
+  {
+    "text": "what's the time",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5854318141937256
+    }
+  },
+  {
+    "text": "whats the time now",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.359645277261734
+    }
+  },
+  {
+    "text": "Can I ask you something about weather",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8557208180427551
+    }
+  },
+  {
+    "text": "Do you have good weather?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9833396673202515
+    }
+  },
+  {
+    "text": "How is the weather today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5442311763763428
+    }
+  },
+  {
+    "text": "How is the weather?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9035596251487732
+    }
+  },
+  {
+    "text": "How is weather today",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8325461149215698
+    }
+  },
+  {
+    "text": "Is it hot or cold?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3664000630378723
+    }
+  },
+  {
+    "text": "Is it humid out there today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7430461049079895
+    }
+  },
+  {
+    "text": "Is it quite breezy outside?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8164994716644287
+    }
+  },
+  {
+    "text": "Is it raining",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.8610599637031555
+    }
+  },
+  {
+    "text": "Is it raining?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.8610599637031555
+    }
+  },
+  {
+    "text": "Looks like a beautiful day hey?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.41480448842048645
+    }
+  },
+  {
+    "text": "Nice day out today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9997401833534241
+    }
+  },
+  {
+    "text": "Weather?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9476991295814514
+    }
+  },
+  {
+    "text": "What is the temperature today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.3359947204589844
+    }
+  },
+  {
+    "text": "What is the weather at your place?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.32829535007476807
+    }
+  },
+  {
+    "text": "What is the weather for tomorrow?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6808820366859436
+    }
+  },
+  {
+    "text": "What is the weather in [newyork]location?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6046924591064453
+    }
+  },
+  {
+    "text": "What's it like out there?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5135896801948547
+    }
+  },
+  {
+    "text": "What's the weather forecast?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7337160706520081
+    }
+  },
+  {
+    "text": "What's the weather like over there?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9418335556983948
+    }
+  },
+  {
+    "text": "What's the weather like where I am right now?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5800926089286804
+    }
+  },
+  {
+    "text": "What's the weather like?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.43707984685897827
+    }
+  },
+  {
+    "text": "Will I require my raincoat today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.532145082950592
+    }
+  },
+  {
+    "text": "Will the skies be clear today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6531209945678711
+    }
+  },
+  {
+    "text": "Will we build a snowman today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.501723051071167
+    }
+  },
+  {
+    "text": "excellent - is it hot in Berlin?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.2894671559333801
+    }
+  },
+  {
+    "text": "how is the weather",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9035596251487732
+    }
+  },
+  {
+    "text": "how is the weather ?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9035596251487732
+    }
+  },
+  {
+    "text": "how is the weather in berlin?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7895060777664185
+    }
+  },
+  {
+    "text": "how is the weather?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9035596251487732
+    }
+  },
+  {
+    "text": "how's the weather ?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9879578948020935
+    }
+  },
+  {
+    "text": "how's the weather in berlin",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9641353487968445
+    }
+  },
+  {
+    "text": "how's the weather?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9879578948020935
+    }
+  },
+  {
+    "text": "how's weather",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9608304500579834
+    }
+  },
+  {
+    "text": "hows the waether",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9969803690910339
+    }
+  },
+  {
+    "text": "hows the weather in bot world",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9617727398872375
+    }
+  },
+  {
+    "text": "hows the weather today in berlin?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5664625763893127
+    }
+  },
+  {
+    "text": "is it hot ?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7761836051940918
+    }
+  },
+  {
+    "text": "is it hot outside ?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3930891156196594
+    }
+  },
+  {
+    "text": "is it sunny",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6122431755065918
+    }
+  },
+  {
+    "text": "is the sun out where you are?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9584512710571289
+    }
+  },
+  {
+    "text": "is the sun out where zou are?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7011471390724182
+    }
+  },
+  {
+    "text": "it is cold",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.45325323939323425
+    }
+  },
+  {
+    "text": "temperature?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9043177366256714
+    }
+  },
+  {
+    "text": "the weather today",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.480612188577652
+    }
+  },
+  {
+    "text": "weatger",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7311801910400391
+    }
+  },
+  {
+    "text": "weather",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9476991295814514
+    }
+  },
+  {
+    "text": "weather?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9476991295814514
+    }
+  },
+  {
+    "text": "well, if you wish: what about the weather",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4631463289260864
+    }
+  },
+  {
+    "text": "what about the weather in Lüneburg",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5685667991638184
+    }
+  },
+  {
+    "text": "what is the temperature",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3313519060611725
+    }
+  },
+  {
+    "text": "what is the wather",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6604225635528564
+    }
+  },
+  {
+    "text": "what is the weatehr",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.283637672662735
+    }
+  },
+  {
+    "text": "what is the weather",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6899448037147522
+    }
+  },
+  {
+    "text": "what is the weather in Berlin",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4703340530395508
+    }
+  },
+  {
+    "text": "what is the weather in zurich?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.39351463317871094
+    }
+  },
+  {
+    "text": "what is the weather like where you are?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.39939406514167786
+    }
+  },
+  {
+    "text": "what is the weather like?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5296721458435059
+    }
+  },
+  {
+    "text": "what is the whether today",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6706712245941162
+    }
+  },
+  {
+    "text": "what the wheather like?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3964536488056183
+    }
+  },
+  {
+    "text": "what\"s the weather",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9623915553092957
+    }
+  },
+  {
+    "text": "what's the weather",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9623915553092957
+    }
+  },
+  {
+    "text": "what's the weather like",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.43707984685897827
+    }
+  },
+  {
+    "text": "what's the weather like in LA",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.49235808849334717
+    }
+  },
+  {
+    "text": "what's the weather like where you are?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7242137789726257
+    }
+  },
+  {
+    "text": "what's the weather like?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.43707984685897827
+    }
+  },
+  {
+    "text": "what's the weather today",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5910941362380981
+    }
+  },
+  {
+    "text": "what's the weather today?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5910941362380981
+    }
+  },
+  {
+    "text": "whats the temperature",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6810504198074341
+    }
+  },
+  {
+    "text": "whats the temperature in delhi?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9775978922843933
+    }
+  },
+  {
+    "text": "whats the weather in berlin?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.868412971496582
+    }
+  },
+  {
+    "text": "whats the weather like tomorrow?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.3973076045513153
+    }
+  },
+  {
+    "text": "wheather at you location?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5592157244682312
+    }
+  },
+  {
+    "text": "wheather be like at your place?",
+    "intent": "ask_weather",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.461334228515625
+    }
+  },
+  {
+    "text": "Can you tell me my name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6382824778556824
+    }
+  },
+  {
+    "text": "Can you tell me what I am called?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6456211805343628
+    }
+  },
+  {
+    "text": "Do I have a name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.933319628238678
+    }
+  },
+  {
+    "text": "Do I have a name? What is it?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5173333287239075
+    }
+  },
+  {
+    "text": "Do you know my name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.744417667388916
+    }
+  },
+  {
+    "text": "Do you know what my name is?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4446253180503845
+    }
+  },
+  {
+    "text": "Explain my name to me.",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3745100796222687
+    }
+  },
+  {
+    "text": "I have a name, what is it?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5229831337928772
+    }
+  },
+  {
+    "text": "I'd like to know my name",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4649805426597595
+    }
+  },
+  {
+    "text": "I'd like to know what my name is",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5726654529571533
+    }
+  },
+  {
+    "text": "Inform me what my name is",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.2980072498321533
+    }
+  },
+  {
+    "text": "May i know my name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8668859004974365
+    }
+  },
+  {
+    "text": "Please let me know what my name is",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5453523397445679
+    }
+  },
+  {
+    "text": "Say my name.",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9952095150947571
+    }
+  },
+  {
+    "text": "Tell me my name",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9378394484519958
+    }
+  },
+  {
+    "text": "Tell me my name.",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9378394484519958
+    }
+  },
+  {
+    "text": "What am I called?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6488029360771179
+    }
+  },
+  {
+    "text": "What could be my name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5615602135658264
+    }
+  },
+  {
+    "text": "What did my parents name me?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8322686553001404
+    }
+  },
+  {
+    "text": "What do I call myself?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.31027406454086304
+    }
+  },
+  {
+    "text": "What do my colleagues call me?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.30422598123550415
+    }
+  },
+  {
+    "text": "What do people call me?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.34860900044441223
+    }
+  },
+  {
+    "text": "What does everyone call me?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.5619136691093445
+    }
+  },
+  {
+    "text": "What else do people call me?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3308548331260681
+    }
+  },
+  {
+    "text": "What exactly is my name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.30563801527023315
+    }
+  },
+  {
+    "text": "What is my first name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.5361106991767883
+    }
+  },
+  {
+    "text": "What is my full name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.809097945690155
+    }
+  },
+  {
+    "text": "What is my name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6426817178726196
+    }
+  },
+  {
+    "text": "What is the name I was given?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "user_state",
+      "confidence": 0.38700905442237854
+    }
+  },
+  {
+    "text": "What name do I go by?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.95896315574646
+    }
+  },
+  {
+    "text": "What name should I recognize for myself?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8159148097038269
+    }
+  },
+  {
+    "text": "What was I named?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8874251246452332
+    }
+  },
+  {
+    "text": "What would be the name on my tombstone?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.589735209941864
+    }
+  },
+  {
+    "text": "can you tell me my name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6382824778556824
+    }
+  },
+  {
+    "text": "what is my name",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6426817178726196
+    }
+  },
+  {
+    "text": "what is my name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6426817178726196
+    }
+  },
+  {
+    "text": "what's my name?",
+    "intent": "ask_whatismyname",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6387768387794495
+    }
+  }
+]

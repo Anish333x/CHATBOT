@@ -1,0 +1,8 @@
+Flask
+pymongo[srv]
+sklearn
+apiclient
+tensorflow
+flask_restful
+flask_pymongo
+google-api-python-client

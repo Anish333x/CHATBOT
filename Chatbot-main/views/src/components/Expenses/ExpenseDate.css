@@ -1,0 +1,27 @@
+.expense-date {
+  display: flex;
+  flex-direction: column;
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 1px solid #ececec;
+  background-color: #79c7c5;
+  color: black;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.expense-date__month {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.expense-date__year {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.expense-date__day {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

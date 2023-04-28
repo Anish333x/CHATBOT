@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cooper</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/chat-window-style.css" />
+    <link rel="stylesheet" href="./style/web-style.css" />
+    <!-- <link rel="stylesheet" href="./login-style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Permanent Marker"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Press Start 2P"
+    />
+  </head>
+
+  <body>
+    <!-- Chat Window -->
+
+    <button class="show-button" type="click">
+      <i class="fa-solid fa-robot"></i>
+    </button>
+
+    <section>
+      <div class="message-window" id="message-window">
+        <header class="messg-header">
+          <div class="messg-title">
+            <h5>
+              <i class="fa-solid fa-jedi"></i>
+              Cooper Chat
+              <i class="fa-solid fa-jedi"></i>
+            </h5>
+          </div>
+        </header>
+
+        <main class="mesger-chat">
+          <div class="msg left-msg">
+            <div class="msg-img"></div>
+
+            <div class="msg-bubble">
+              <div class="msg-info">
+                <div class="msg-info-name">Cooper</div>
+                <div class="msg-info-time" id="msg-info-time"></div>
+              </div>
+
+              <div class="msg-text">
+                Hi, welcome to Master ChatBot! Go ahead and send me a message.
+                😉
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <form class="mesger-input-area">
+          <input
+            type="text"
+            class="msger-input"
+            placeholder="Enter your message..."
+          />
+          <button type="submit" class="msger-send-btn">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Login Window -->
+    <aside class="login__page">
+      <div class="login-name">Login</div>
+      <div class="eula">
+        <p>
+          By logging in you agree to the ridiculously long terms that you didn't
+          bother to read
+        </p>
+
+        <div class="form" action"/" method="POST">
+          <label for="email" class="labels">Email</label>
+          <input
+            type="mail"
+            class="email"
+            id="email-input"
+            placeholder="Enter your email..."
+            autofocus
+          />
+          <label for="password" class="labels">Password</label>
+          <input
+            type="password"
+            class="password"
+            id="password-input"
+            placeholder="Enter your password..."
+          />
+          <input type="submit" class="submit" value="Submit" />
+        </div>
+      </div>
+    </aside>
+
+    <!-- Web Page -->
+    <section class="main-page" id="home">
+      <nav class="nav-bar">
+        <div class="logo">
+          <!-- <i class="fa-brands fa-battle-net"></i> -->
+          <i class="fa-brands fa-bots" id="icon"></i>
+        </div>
+        <div class="nav-items">
+          <a href="#home" class="normal home">Home</a>
+          <a href="#works" class="normal">Works</a>
+          <a href="#about" class="normal">About Project</a>
+          <a href="#contact-us" class="normal">Contact Us</a>
+          <a class="login" id="ln">
+            <i class="fa-solid fa-user" id="main-icon2"></i>
+          </a>
+        </div>
+        <img src="./img/menu-btn.png" alt="menu-btn" class="menu-btn" />
+      </nav>
+
+      <header class="main-head">
+        <div class="content">
+          <h1 class="main-name">Cooper</h1>
+          <div class="line"></div>
+          <p>
+            "AI is probably the most important thing humanity has ever worked
+            on."
+          </p>
+        </div>
+      </header>
+
+      <article id="works" class="our-works">
+        <div class="title">
+          <h1>Our Works</h1>
+          <div class="line2"></div>
+        </div>
+        <div class="works-content">
+          <div class="card">
+            <div class="card-content">
+              <h1 class="card-title">Expense Tracker</h1>
+              <div class="card-subtitle"></div>
+              <p class="card-description">
+                The main purpose of an expense tracker is to identify where you
+                are spending your money, and from there, you can identify ways
+                or opportunities to save or invest more of your money and reduce
+                your cost of living.
+              </p>
+              <a href="http://localhost:3000/" class="card-button">Tracker</a>
+            </div>
+          </div>
+
+          <div class="card2">
+            <div class="card-content">
+              <h1 class="card-title">Calendar</h1>
+              <div class="card-subtitle"></div>
+              <p class="card-description">
+                Google Calendar is a time-management and scheduling calendar
+                service developed by Google. Calendar allows users to create and
+                edit events. Reminders can be enabled for events, with options
+                available for type and time.
+              </p>
+              <a
+                href="https://calendar.google.com/calendar/u/0/r?pli=1"
+                class="card-button"
+                >Calendar
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article id="about" class="about-us">
+        <div class="title2">
+          <h1>About Project</h1>
+          <div class="line"></div>
+
+          <p>
+            Rasa is an open-source machine learning framework used to create
+            conversational chatbots. It is used to automate the text and
+            voice-based assistants.
+          </p>
+
+          <h4>Elements Of Rasa</h4>
+          <div class="ele-content">
+            <div>
+              <h6>Natural Language Understanding(NLU)</h6>
+              <p>
+                NLU converts text to vectors to identify the intention of the
+                sentence and converts the incoming text to tokenizers with the
+                extraction of entities.
+              </p>
+            </div>
+
+            <div>
+              <h6>Natural Language Generation (NLG)</h6>
+              <p>
+                NLG is a subset of AI and is powerful owing to its feature to
+                take input of non-linguistic format and convert it into a
+                human-understandable form!.
+              </p>
+            </div>
+
+            <div>
+              <h6>Dialogue Management</h6>
+              <p>
+                As the name suggests it is used to manage so that when the
+                extracted data from intent and entity is received, it doesn't
+                mess up.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="contact-us">
+        <div class="title3">
+          <h1 id="contact-us">Contact Us</h1>
+          <div class="line"></div>
+        </div>
+
+        <div class="ele-content2">
+          <div class="sub-ele">
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <h3 class="contact-card-title">CHATBOT</h3>
+                <div class="line"></div>
+              </div>
+            </div>
+            <p>
+              Hello how are you everyone nice to meet you we are going to meet
+              soon so wait we made this website by our own.
+            </p>
+          </div>
+
+          <div class="sub-ele">
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <h3 class="contact-card-title">CHATBOT</h3>
+                <div class="line"></div>
+              </div>
+            </div>
+            <p>
+              Hello how are you everyone nice to meet you we are going to meet
+              soon so wait we made this website by our own.
+            </p>
+          </div>
+
+          <div class="sub-ele">
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <h3 class="contact-card-title">CHATBOT</h3>
+                <div class="line"></div>
+              </div>
+            </div>
+            <p>
+              Hello how are you everyone nice to meet you we are going to meet
+              soon so wait we made this website by our own.
+            </p>
+          </div>
+
+          <div class="sub-ele">
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <h3 class="contact-card-title">CHATBOT</h3>
+                <div class="line"></div>
+              </div>
+            </div>
+            <p>
+              Hello how are you everyone nice to meet you, we are going to meet
+              soon ,so wait we made this website by our own.
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <p class="copyright"></p>
+    </footer>
+
+    <!-- Login Page -->
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js"
+    integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="scripts/index.js"></script>
+  <script src="./scripts/main.js"></script>
+  <script src="./scripts/login.js"></script>
+</html>

@@ -1,0 +1,12 @@
+version: '3.1'
+
+stories:
+  - story: how_am_i doing
+    steps:
+      - intent: ask_howdoing
+      - action: utter_how_am_i_doing
+
+  - story: get_user_name
+    steps:
+      - intent: user_name
+      - action: utter_greet_user
