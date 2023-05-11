@@ -22,7 +22,7 @@ class GetExpenses(Action):
                     except:
                         continue
                 totalAmount += int(res)
-
+            print('TOTAL:', totalAmount)
             dispatcher.utter_message(f"Your toal expense : {totalAmount}")
 
         except:
@@ -55,7 +55,7 @@ class CreateExpense(Action):
 
             response = requests.post("http://127.0.0.1:8000/api/v1/expense", json=newExpense)
             response = response.json()
-
+            print('RESPONSE:', response)
             if (response['status'] == 'success'): 
                 dispatcher.utter_message(text = f"Your expenese has been added to our Expense Tracker")
 

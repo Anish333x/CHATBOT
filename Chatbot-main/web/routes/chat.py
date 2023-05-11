@@ -25,6 +25,6 @@ class Chat(Resource):
 
        data = {"sender" : id, "message" : msg}
        print('dATA:00', data)
-       response = requests.post("http://127.0.0.1:4000/webhooks/rest/webhook", json = data)
+       response = requests.post("http://127.0.0.1:5005/webhooks/rest/webhook", json = data)
     #    print(response.json())
        return Response(message = "bot replied!").sendResponse(data = response.json()[0]['text'])

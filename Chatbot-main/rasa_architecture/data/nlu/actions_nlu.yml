@@ -5,10 +5,7 @@ nlu:
     examples: |
       - My name is [op](name)
       - I am [op](name)
-      - They camm me [ankit](name)
       - You can call me [Govinda](name)
-      - my name is [Bhanwar](name)
-      - name : [OmPrakash]
       - name's [divya](name)
       - [divya](name) here
       - my name is [Jitu](name)

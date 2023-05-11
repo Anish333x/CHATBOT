@@ -119,7 +119,6 @@ responses:
 
   utter_iamabot:
     - text: I am a bot, powered by Rasa.
-    - text: I am a bot, made by Omprakash Sirvi
     - text: I am a bot
 
   utter_agent_can_you_help:
